@@ -1,4 +1,4 @@
-# projetos-do-alura-incluides
+# projetos-do-alura-includes
 
 Link de cada exercício feito:
 
