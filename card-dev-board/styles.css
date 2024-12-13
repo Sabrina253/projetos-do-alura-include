@@ -1,0 +1,109 @@
+:root {
+  --cor-principal: #E85D04; 
+  --cor-fundo-cartao: #5fb1e0;
+  --cor-texto-claro: #FFF8E5;
+  --fonte-padrao: Arial, sans-serif;
+  --fonte-destaque: "Bungee Shade", sans-serif;
+  --largura-cartao: 360px;
+  --altura-cartao: 520px;
+  --largura-header: 1080px;
+  --padding-header: 20px 0;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: var(--fonte-padrao);
+  color: var(--cor-principal);
+}
+
+main {
+  margin: 20px;
+  padding: 10px;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: var(--largura-header);
+  margin: 0 auto;
+  padding: var(--padding-header);
+  color: var(--cor-principal);
+  border-bottom: 5px solid var(--cor-principal);
+}
+
+.header-titulo {
+  font-family: var(--fonte-destaque);
+  font-size: 24px;
+}
+
+.header-navegacao {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.header-link {
+  color: var(--cor-principal);
+  text-decoration: none;
+  font-size: 16px;
+}
+
+.header-icones a {
+  color: var(--cor-principal);
+  font-size: 20px;
+  text-decoration: none;
+}
+
+.cartao {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: var(--largura-cartao);
+  height: var(--altura-cartao);
+  background-color: var(--cor-fundo-cartao);
+  border: 2px solid var(--cor-principal);
+  color: var(--cor-texto-claro);
+  text-align: center;
+  padding: 20px;
+  border-radius: 8px;
+}
+
+.cartao-img {
+  width: 150px;
+  margin-bottom: 20px;
+}
+
+.cartao-nome {
+  font-size: 24px;
+  margin: 10px 0;
+  color: var(--cor-texto-claro);
+}
+
+.cartao-descricao {
+  font-size: 16px;
+  margin-bottom: 20px;
+}
+
+.gif-notas-musicais {
+  width: 60%;
+  height: auto;
+  margin: 15px 0;
+}
+
+.cartao-links {
+  list-style: none;
+  display: flex;
+  gap: 50px;
+}
+
+.cartao-links a {
+  color: var(--cor-texto-claro);
+  font-size: 24px;
+  text-decoration: none;
+}
