@@ -2,4 +2,4 @@
 
 Link de cada exercício feito:
 
-- Amigo secreto: (https://sabrina253.github.io/projetos-do-alura-incluides/amigo-secreto/))
+- [Amigo secreto: projeto do programa Alura Include](https://sabrina253.github.io/projetos-do-alura-incluides/amigo-secreto/)
