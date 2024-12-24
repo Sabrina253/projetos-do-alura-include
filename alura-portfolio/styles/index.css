@@ -1,0 +1,22 @@
+body {
+    background-color: rgb(177, 201, 205);
+}
+.menu-navegacao {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5px;
+    padding: 20px;
+    gap: 45px;
+}
+
+.link-menu {
+    display: flex;
+    align-items: center; 
+    gap: 2px;
+    color:#e15e32;
+}
+
+.link-menu:active{
+    opacity: 0.5; 
+}
