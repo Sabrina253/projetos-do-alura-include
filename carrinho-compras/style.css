@@ -49,14 +49,11 @@ input[type="number"] {
   filter: drop-shadow(0px 0px 70px rgba(2, 189, 255, 0.40));
   min-height: 100%;
   padding: 5rem 6.5rem;
-  
   display: grid;
   grid-template-columns: 1.375fr 1fr;
   column-gap: 5rem;
-
   background: white url('./assets/oculos.png') no-repeat bottom left;
   background-size: auto 40%;
-
   position: relative;
   background-position: left bottom -40px;
 }
@@ -102,14 +99,12 @@ input[type="number"] {
   padding: 1rem;
   border-radius: 0.5rem;
   border: 1px solid var(--Light-Blue, #1875E8);
-
   color: var(--Void, #01080E);
   font-family: Inter;
   font-size: 1.3125rem;
   font-style: italic;
   font-weight: 400;
   line-height: 110%;
-  
   background: url('./assets/arrow-down.svg') no-repeat right 1rem top 50%;
 }
 
@@ -138,7 +133,6 @@ input[type="number"] {
   width: 4.5rem;
   border-radius: 0.5rem;
   border: 1px solid var(--Light-Blue, #1875E8);
-
   color: var(--Void, #01080E);
   font-family: Inter;
   font-size: 1.3125rem;
@@ -169,7 +163,6 @@ input[type="number"] {
 .botao-adicionar {
   background: var(--Light-Blue, #1875E8);
   box-shadow: 0px 0px 20px 0px rgba(24, 117, 232, 0.50);
-
   color: var(--Branco, #FFF);
   font-size: 1.5rem;
   font-weight: 700;
@@ -180,7 +173,6 @@ input[type="number"] {
   border-radius: 1rem;
   background: var(--Void, #01080E);
   box-shadow: 0px 0px 20px 0px rgba(1, 8, 14, 0.50);
-
   color: var(--Branco, #FFF);
   font-size: 1.5rem;
   font-weight: 700;
