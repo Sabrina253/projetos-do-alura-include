@@ -1,0 +1,158 @@
+.menu-navegacao {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5px;
+    padding: 30px;
+    gap: 45px;
+}
+
+.link-icone {
+    display: flex;
+    gap: 5px;
+    color: #efefe8;
+}
+
+main {
+    padding: 5%;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    gap: 20px;
+}
+
+.sobre-mim, .minhas-habilidades, .meus-projetos {
+    display: flex;
+    flex-direction: column; 
+    gap: 10px;
+    width: 50%;
+    max-width: 500px; 
+    text-align: justify;
+}
+
+.rede-social {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 5px;  
+}
+
+.btn-info {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 5px;
+    padding: 10px 15px;
+    width: 30%;
+    text-align: center;
+    border: 2px solid #efefe8;
+    border-radius: 5px; 
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.img-freepik {
+    width: 30%;
+    height: 430px;
+    border-radius: 8px;
+    object-fit: cover;
+}
+
+.meus-projetos {
+    width: 90%;
+    max-width: 800px; 
+}
+
+.card {
+    border-right: 5px solid #e15e32; 
+    border-bottom: 5px solid #e15e32;
+    max-width: 300px; 
+    margin: 0 auto; 
+  }
+
+  .card-img-top {
+    height: 130px; 
+    object-fit: cover; 
+  }
+
+  .btn {
+    background-color: #363242;
+    border-color: #efefe8;
+  }
+
+.btn-mais {
+    display: inline-block; 
+    margin: 20px 20px 15px 20px; 
+    padding: 10px 15px; 
+    width: 30%;
+    text-align: center;
+    color: #efefe8;
+    border: 2px solid #efefe8; 
+    border-radius: 5px; 
+    transition: background-color 0.3s, color 0.3s; 
+}
+
+.card-body {
+    background-color: #efefe8;
+}
+
+.rodape {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-top: 2px solid #efefe8;
+    padding: 5px 5px 0px 5px ;
+}
+
+#logo-alura-include { 
+    width: 6%;
+    margin: 5px;
+}
+
+#paragrafo-footer {
+    margin: 0;
+    padding: 0;
+    color:#efefe8;
+    font-size: 13px;
+    font-weight: bold;
+}
+
+@media (max-width: 640px) {
+    .menu-navegacao {
+        display: flex;
+        gap: 15px; /* Reduz o espaço entre os itens */
+        padding: 20px;
+    }
+
+    main {
+        flex-direction: column-reverse; /* Organiza os elementos em coluna */
+        gap: 10px; /* Reduz o espaço entre os elementos */
+    }
+
+    .minhas-habilidades {
+        width: 100%; /* Ocupa a largura total */
+        text-align: left; /* Alinha o texto à esquerda */
+        padding: 0 10px; /* Adiciona espaçamento lateral */
+    }
+
+    .card {
+        margin-bottom: 15px;
+        border-top: 5px solid #e15e32; 
+        border-left: 5px solid #e15e32;
+        border-right: none; 
+        border-bottom: none;
+    }
+
+    .img-freepik {
+        width: 80%; /* Adapta a largura para caber na tela */
+        height: auto; /* Mantém a proporção original */
+    }
+
+    #logo-alura-include {
+        width: 10%; /* Ajusta o tamanho do logo */
+    }
+
+    .btn-info, .btn-mais {
+        width: 70%; /* Aumenta o botão para ocupar mais espaço */
+    }
+}
